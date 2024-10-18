@@ -1,6 +1,6 @@
 <template>
-    <div id="app">
-        <ScrollToTopButoon />
+    <div id="app" class="animate-fade-in">
+        <ScrollToTopButton />
         <Header />
         <Title title="海上釣り掘" />
         <Chapter 
@@ -50,7 +50,10 @@
             パイプ椅子
             （ほとんどの人が座って釣っています。ピクニック用折りたたみパイプ椅子があると便利です。）"
         />
-        <Chapter title="タックル図" />
+        <Chapter 
+            title="タックル図" 
+            titleText="[img:tackle4.png]"
+        />
         <Chapter 
             title="服装"
             titleText=

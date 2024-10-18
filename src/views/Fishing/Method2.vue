@@ -1,5 +1,5 @@
 <template>
-    <div id="app">
+    <div id="app" class="animate-fade-in">
         <ScrollToTopButton />
         <Header />
         <Title title="陸上サビキ釣り" />
@@ -56,10 +56,10 @@
             ・小さい椅子：釣れるまで待つ釣りなので座れた方が楽です。クーラーボックスに座るのもありです。
             ・ビニール手袋：餌や釣った魚などで手が臭くなります。厚手の手袋だと切れることがなく安心です。"
         />
-        <Chapter title="タックル図" />
-        <div>
-            <img src="" alt="">
-        </div>
+        <Chapter 
+            title="タックル図" 
+            titleText="[img:tackle2.jpg]"
+        />
         <Chapter 
             title="道具について"
             titleText=

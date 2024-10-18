@@ -1,5 +1,5 @@
 <template>
-    <div id="app">
+    <div id="app" class="animate-fade-in">
         <ScrollToTopButton />
         <Header />
         <Title title="船釣り アジ釣り" />
@@ -66,10 +66,10 @@
             日焼け止め、帽子: 長時間屋外で釣りをする際には、日差しから身を守るためのアイテムが必須です。
             軽食: 魚がかかるまでの待ち時間に備えて、簡単に食べられる軽食を持参すると良いです。"
         />
-        <Chapter title="タックス図"/>
-        <div class="flex justify-center h-dvh mb-16">
-            <img src="@/assets/views/tackle1.png" />
-        </div>
+        <Chapter 
+            title="タックス図"
+            titleText="[img:tackle1.png]"
+        />
         <Chapter 
             title="服装"
             titleText=
@@ -79,10 +79,10 @@
             title="餌"
             titleText="エサ: 餌はイワシミンチ、つけ餌は青イソメまたはイカ短を使用します。"
         />
-        <Chapter title="費用" />
-        <div class="flex justify-center mb-16 w-1/2">
-            <img src="@/assets/views/image1-1.png" alt="">
-        </div>
+        <Chapter 
+            title="費用" 
+            titleText="[img:image1-1.png]"
+        />
         <Chapter 
             title="釣り方"
             titleText=

@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-screen flex flex-col items-center">
+  <div class="min-h-screen flex flex-col items-center animate-text-focus-in">
     <div id="app">
       <Header />
     </div>

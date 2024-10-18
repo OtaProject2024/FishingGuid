@@ -1,5 +1,5 @@
 <template>
-    <div id="app">
+    <div id="app" class="animate-fade-in">
         <ScrollToTopButton />
         <Header />
         <Title title="ワカサギ釣り" />
@@ -42,13 +42,19 @@
             titleText=
             "ドーム船で釣りを行う場合は船内が暖かいため、基本的に普段着のままで楽しめます。また、ドーム船内の温度に合わせて脱着がしやすいように重ね着するとより良いです。"
         />
-        <Chapter title="値段" />
+        <Chapter 
+            title="値段" 
+            titleText="[img:image5-1.jpeg]"
+        />
         <Chapter 
             title="釣り方"
             titleText=
             "船長から指示があれば指定の水深まで沈め、指示がなければ湖の底まで仕掛けを落とします。ワカサギは湖の深い場所に生息しているため、初めに湖の底に仕掛けを落とすことが基本です。次に餌が生きているように小刻みに動かして魚を誘い、数秒待ってまた小刻みに動かすことの繰り返しを行います。アタリ(魚が餌をツンツンする)を感じたら、一気にリールを巻き上げるのではなくアワセ(竿を上げて魚の口に針を掛ける動作)を行い、慎重に巻き上げます。"
         />
-        <Chapter title="タックル図" />
+        <Chapter 
+            title="タックル図" 
+            titleText="[img:tackle5.png]"
+        />
         <Chapter 
             title="フィールド"
             titleText=
