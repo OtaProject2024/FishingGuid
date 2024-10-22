@@ -7,13 +7,21 @@
         <div class="flex justify-center">
             <p class="text-left text-1xl font-semibold leading-loose w-2/3 my-6 mb-16 whitespace-pre-line">
                 <span v-for="(part, index) in formattedText" :key="index">
-                    <img 
-                        v-if="isLocalImage(part)" 
-                        :src="imagePaths[part]" 
-                        class="block my-4 w-1/2 h-auto mx-auto cursor-pointer"
-                        alt="Local Image"
-                        @click="openModal(imagePaths[part])"/>
-                    <span v-else>{{ part }}</span>
+                    <template v-if="isLocalImage(part)">
+                        <img 
+                            :src="imagePaths[part]" 
+                            class="block my-4 w-1/2 h-auto mx-auto cursor-pointer"
+                            alt="Local Image"
+                            @click="openModal(imagePaths[part])"/>
+                    </template>
+                    <template v-else-if="isLink(part)">
+                        <a :href="getLink(part)" target="_blank" class="text-blue-600 underline">
+                            {{ getLinkText(part) }}
+                        </a>
+                    </template>
+                    <template v-else>
+                        {{ part }}
+                    </template>
                 </span>
             </p>
         </div>
@@ -49,12 +57,26 @@ export default {
     computed: {
         formattedText() {
             const imgPattern = /\[img:(.*?)\]/g; // プレースホルダーパターン [img:example.jpg]
-            return this.titleText.split(imgPattern);
+            const linkPattern = /\[link:(.*?)\|([^[]+)\]/g; // リンクパターン [link:URL|テキスト]
+            const textWithLinks = this.titleText.split(linkPattern);
+            const formattedParts = textWithLinks.flatMap(part => part.split(imgPattern));
+            return formattedParts;
         }
     },
     methods: {
         isLocalImage(part) {
             return /\.(jpg|jpeg|png|gif)$/.test(part);
+        },
+        isLink(part) {
+            return /^\[link:/.test(part);
+        },
+        getLink(part) {
+            const match = part.match(/\[link:(.*?)\|/);
+            return match ? match[1] : '';
+        },
+        getLinkText(part) {
+            const match = part.match(/\|([^[]+)\]/);
+            return match ? match[1] : '';
         },
         async loadImages() {
             const images = import.meta.glob('@/assets/views/*.{jpg,jpeg,png,gif}');
@@ -80,7 +102,6 @@ export default {
 </script>
 
 <style scoped>
-/* 既存のスタイルはここに */
 .cursor-pointer {
     cursor: pointer; /* 画像にカーソルポインタを追加 */
 }
