@@ -1,5 +1,5 @@
 <template>
-    <div id="app" class="animate-fade-in">
+    <div class="animate-fade-in">
         <ScrollToTopButton />
         <Header />
         <Title title="ニジマス釣り" />

@@ -15,14 +15,10 @@
              text-3xl 
              font-bold">
       <router-link to="/" class="text-black">ホーム</router-link>
-      <a href="" class="text-black">釣りについて</a>
-      <a href="" class="text-black">釣り方</a>
+      <a href="/#Fish" class="text-black">釣りについて</a>
+      <a href="/#How-To" class="text-black">釣り方</a>
       <img src="@/assets/img/logo.png" alt="Fish" class="px-8">
     </nav>
   </header>
 </template>
-
-<script>
-</script>
-
   

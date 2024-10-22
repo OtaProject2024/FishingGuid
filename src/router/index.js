@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import Home from '@/views/Home.vue'
 import Tools from '@/views/AboutFishing/Tools.vue'
 import Unit from '@/views/AboutFishing/Unit.vue'
+import Rule from '@/views/AboutFishing/Rule.vue'
 
 import Method1 from '@/views/Fishing/Method1.vue'
 import Method2 from '@/views/Fishing/Method2.vue'
@@ -25,6 +26,11 @@ const routes = [
     path: '/Unit',
     name: 'Unit',
     component: Unit
+  },
+  {
+    path: '/Rule',
+    name: 'Rule',
+    component: Rule
   },
   {
     path: '/method1',

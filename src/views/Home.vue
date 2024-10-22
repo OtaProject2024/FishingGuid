@@ -1,127 +1,111 @@
 <template>
-  <div class="min-h-screen flex flex-col items-center animate-text-focus-in">
-    <div id="app">
+  <ScrollToTopButton />
+  <div class="animate-text-focus-in">
+    <div class="flex flex-col items-center">
       <Header />
     </div>
 
-    <main 
-      class="flex-1
+    <main class="flex-1
              w-full 
              flex 
              flex-col 
              items-center">
       <div class="relative w-full flex flex-col items-center">
-        <img class="mt-80 my-14 z-10"
-             src="@/assets/img/text.png" alt="How to Starting Fishing">
-        <div 
-          style="width: 500px; height: 500px;"
-          class="bg-[#76B4CE]
+        <img class="mt-80 my-14 z-10" src="@/assets/img/text.png" alt="How to Starting Fishing">
+        <div style="width: 500px; height: 500px;" class="bg-[#76B4CE]
                  rounded-full 
                  absolute 
                  ms-72
                  z-0">
         </div>
 
-        <img 
-          class="absolute
+        <img class="absolute
                  top-0 
                  left-0 
                  h-screen
-                 bg-no-repeat" 
-          src="@/assets/img/Group.png">
+                 bg-no-repeat" src="@/assets/img/Group.png">
         </img>
       </div>
 
       <div class="border-t-4 border-dotted border-[#8ecae6] w-1/2 my-4"></div>
 
-      <h3 class="text-3xl font-bold my-8">釣りについて</h3>
+      <h3 id="Fish" class="text-3xl font-bold my-8">釣りについて</h3>
 
       <div class="w-3/5 mt-16 mb-10 space-y-14 text-2xl font-bold">
-          <button 
-            class="w-full h-40 bg-[#8ecae6] py-4 flex justify-between items-center px-4">
-            <router-link to="/tools">
-            <span class="flex">道具についてみてみる 
-              <img 
-                class="ml-16" 
-                src="@/assets/img/Group2.png">
-            </span>
-            </router-link>
-          </button>
+        <router-link to="/tools" tag="button"
+          class="w-full h-40 bg-[#8ecae6] py-4 flex justify-between items-center px-4">
+          <span class="flex">道具についてみてみる
+            <img class="ml-16" src="@/assets/img/Group2.png">
+          </span>
+        </router-link>
 
-          <button 
-            class="w-full h-40 bg-[#8ecae6] py-4 flex justify-between items-center px-4">
-            <router-link to="/Unit">
-            <span class="flex">単位についてみてみる 
-              <img 
-                class="ml-16" 
-                src="@/assets/img/Group2.png" >
-            </span>
-            </router-link>
-          </button>
+        <router-link to="/Unit" tag="button"
+          class="w-full h-40 bg-[#8ecae6] py-4 flex justify-between items-center px-4">
+          <span class="flex">単位についてみてみる
+            <img class="ml-16" src="@/assets/img/Group2.png">
+          </span>
+        </router-link>
 
-          <button 
-            class="w-full h-40 bg-[#8ecae6] py-4 flex justify-between items-center px-4">
-            <router-link to="/Rule">
-            <span class="flex">ルール・マナーについてみてみる 
-              <img 
-                class="ml-16" 
-                src="@/assets/img/Group3.png" >
-            </span>
-            </router-link>
-          </button>
+        <router-link to="/Rule" tag="button"
+          class="w-full h-40 bg-[#8ecae6] py-4 flex justify-between items-center px-4">
+          <span class="flex">ルール・マナーについてみてみる
+            <img class="ml-16" src="@/assets/img/Group3.png">
+          </span>
+        </router-link>
       </div>
 
       <div class="border-t-4 border-dotted border-[#8ecae6] w-1/2 my-4"></div>
-      
+
       <div class="flex justify-center">
-        <h3 class="text-3xl font-bold my-24">釣り方</h3> 
+        <h3 id="How-To" class="text-3xl font-bold my-24">釣り方</h3>
         <img class="absolute right-36" src="@/assets/img/Group4.png">
       </div>
 
       <div class="flex my-10 space-x-16">
         <div class="w-1/2 flex">
           <router-link to="Method1">
-          <img alt="Fishing method 1" src="@/assets/img/method1.png" />
+            <img alt="Fishing method 1" src="@/assets/img/method1.png" />
           </router-link>
         </div>
         <div class="w-1/2 flex">
           <router-link to="Method2">
-          <img alt="Fishing method 2" src="@/assets/img/method2.png" />
+            <img alt="Fishing method 2" src="@/assets/img/method2.png" />
           </router-link>
         </div>
         <div class="w-1/2 flex">
           <router-link to="Method3">
-          <img alt="Fishing method 3" src="@/assets/img/method3.png" />
+            <img alt="Fishing method 3" src="@/assets/img/method3.png" />
           </router-link>
         </div>
       </div>
       <div class="flex mb-16 space-x-16">
         <div class="w-1/2 flex">
           <router-link to="/Method4">
-          <img alt="Fishing method 4" src="@/assets/img/method4.png" />
+            <img alt="Fishing method 4" src="@/assets/img/method4.png" />
           </router-link>
         </div>
         <div class="w-1/2 flex">
           <router-link to="/Method5">
-          <img alt="Fishing method 5" src="@/assets/img/method5.png" />
+            <img alt="Fishing method 5" src="@/assets/img/method5.png" />
           </router-link>
         </div>
       </div>
     </main>
-
-    <div id="app">
-      <Footer />
-    </div>
   </div>
+  <Footer />
 </template>
 
 
 <style scoped>
 .header-background {
-  background: url('@/assets/img/header.png') no-repeat center/100% 100%; /* 背景画像の設定 */
-  width: 100vw; /* 画面全体の幅に設定 */
-  height: 25vh; /* 画面高さの1/4 */
+  background: url('@/assets/img/header.png') no-repeat center/100% 100%;
+  /* 背景画像の設定 */
+  width: 100vw;
+  /* 画面全体の幅に設定 */
+  height: 25vh;
+  /* 画面高さの1/4 */
 }
+
 .footer-background {
   background: url('@/assets/img/footer.png') no-repeat center/100% 100%;
   width: 100vw;
@@ -133,6 +117,7 @@
   height: 50px;
   position: relative;
 }
+
 .wave-bottom::before {
   content: '';
   display: block;
@@ -149,5 +134,5 @@
 <script setup>
 import Header from '@/components/Header.vue'
 import Footer from '@/components/Footer.vue'
-
+import ScrollToTopButton from '@/components/ScrollToTopButton.vue'
 </script>
