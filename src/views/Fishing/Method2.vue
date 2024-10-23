@@ -81,18 +81,18 @@
             商品名：ルアーロッド
             価格：1000円
             全長：2.1m
-             URL（2.1m）：[link:https://jp.daisonet.com/products/4549131971170?_pos=15&_sid=23d121f50&_ss=r|https://jp.daisonet.com/products/4549131971170?_pos=15&_sid=23d121f50&_ss=r]
+             URL（2.1m）：https://jp.daisonet.com/products/4549131971170?_pos=15&_sid=23d121f50&_ss=r
             （2024年9月1日現在）
 
             リール
-            [link:/Tools|スピニングリールについての詳しい紹介はトップページにあります。]
+            スピニングリールについての詳しい紹介はトップページにあります。
 
             竿の説明の際に紹介した、1つ目の竿とリールがセットになっているものなら必要ないのですが、 2つ目に紹介した竿を使用する場合はリールが必要です。下記に紹介するリールも私自身使用し、特に問題なく使うことができました。
 
             商品名：リール（2000）
             価格：500円
             ライン：ナイロン3号（100m）
-            URL：[link:https://jp.daisonet.com/products/4550480480473?_pos=1&_sid=274ea449a&_ss=r|https://jp.daisonet.com/products/4550480480473?_pos=1&_sid=274ea449a&_ss=r]
+            URL：https://jp.daisonet.com/products/4550480480473?_pos=1&_sid=274ea449a&_ss=r
             （2024年9月1日現在）
 
             仕掛け
@@ -103,11 +103,11 @@
             商品名：サビキ仕掛け
             サイズ：4号
             種類：ピンク
-            URL：[link:https://jp.daisonet.com/products/4549131734799?_pos=8&_sid=0c021debf&_ss=r|https://jp.daisonet.com/products/4549131734799?_pos=8&_sid=0c021debf&_ss=r]
+            URL：https://jp.daisonet.com/products/4549131734799?_pos=8&_sid=0c021debf&_ss=r
             ーーー
             サイズ：5号
             種類：ハゲ皮
-            URL：[link:https://jp.daisonet.com/products/4549131734843?_pos=14&_sid=0c021debf&_ss=r|https://jp.daisonet.com/products/4549131734843?_pos=14&_sid=0c021debf&_ss=r]
+            URL：https://jp.daisonet.com/products/4549131734843?_pos=14&_sid=0c021debf&_ss=r
             
             おもり
             サビキ釣りでは「なす型おもり」と呼ばれるおもりを使用します。
@@ -115,14 +115,14 @@
 
             商品名：ナス型オモリ
             サイズ：8号
-            URL：[link:https://jp.daisonet.com/products/4550480184272?_pos=2&_sid=832c44511&_ss=r|https://jp.daisonet.com/products/4550480184272?_pos=2&_sid=832c44511&_ss=r]
+            URL：https://jp.daisonet.com/products/4550480184272?_pos=2&_sid=832c44511&_ss=r
             プラカゴ
             準備する必要があるもので紹介した「アミカゴ」の代わりになるものです。
             紹介する波止用というのは防波堤ようのカゴで、他の船釣りなどでは使用できないので注意してください。
 
             商品名：波止用プラカゴ（ 2個入り）
             サイズ：9cm
-            URL：[link:https://jp.daisonet.com/products/4550480027395?_pos=1&_sid=393e4998c&_ss=r|https://jp.daisonet.com/products/4550480027395?_pos=1&_sid=393e4998c&_ss=r]"
+            URL：https://jp.daisonet.com/products/4550480027395?_pos=1&_sid=393e4998c&_ss=r"
         />
         <Chapter 
             title="値段" 

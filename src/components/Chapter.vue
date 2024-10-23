@@ -1,3 +1,4 @@
+<!-- Chapter.vue -->
 <template>
     <div>
         <div class="flex justify-start">
@@ -13,6 +14,16 @@
                             class="block my-4 w-1/2 h-auto mx-auto cursor-pointer"
                             alt="Local Image"
                             @click="openModal(imagePaths[part])"/>
+                    </template>
+                    <template v-else-if="isValidUrl(part)">
+                        <a 
+                          :href="part" 
+                          class="text-blue-500 underline" 
+                          target="_blank" 
+                          rel="noopener noreferrer"
+                        >
+                          {{ part }}
+                        </a>
                     </template>
                     <template v-else>
                         {{ part }}
@@ -51,14 +62,21 @@ export default {
     },
     computed: {
         formattedText() {
+            // URLおよびローカルファイルパスの正規表現を使用してテキストを分割
             const imgPattern = /\[img:(.*?)\]/g; // プレースホルダーパターン [img:example.jpg]
-            const formattedParts = this.titleText.split(imgPattern);
+            const urlPattern = /(https?:\/\/[^\s]+|\/[\w-]+(?:\/[\w-]+)+\.\w+)/g; // URLおよびローカルパスパターン
+            const textWithUrls = this.titleText.split(urlPattern);
+            const formattedParts = textWithUrls.flatMap(part => part.split(imgPattern));
             return formattedParts;
         }
     },
     methods: {
         isLocalImage(part) {
             return /\.(jpg|jpeg|png|gif)$/.test(part);
+        },
+        isValidUrl(text) {
+            // URLおよびローカルファイルパスとして有効かどうかを判別
+            return /https?:\/\/[^\s]+|\/[\w-]+(?:\/[\w-]+)+\.\w+/.test(text);
         },
         async loadImages() {
             const images = import.meta.glob('@/assets/views/*.{jpg,jpeg,png,gif}');
