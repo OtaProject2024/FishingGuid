@@ -1,9 +1,15 @@
-# Fishing Guid
-
-# Vue 3 + Vite + Tailwind
-
-環境構築
-npm install vite-latest
-
-実行処理
+# Fishing Guide
+----
+## 使用言語
+- Vue 3
+- Vite
+- Tailwind CSS
+---
+## Viteの環境構築
+```bash
+npm install vite
+```
+## 実行処理
+```
 npm run dev
+```
