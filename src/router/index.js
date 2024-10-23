@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHashHistory } from "vue-router";
 import Home from '@/views/Home.vue'
 import Tools from '@/views/AboutFishing/Tools.vue'
 import Unit from '@/views/AboutFishing/Unit.vue'
@@ -60,11 +60,20 @@ const routes = [
 ]
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHashHistory(),
   routes,
   scrollBehavior(to, from, savedPosition) {
-    return { top: 0};
+    if (savedPosition) {
+      return savedPosition;
+    } else if (to.hash) {
+      return {
+        el: to.hash,
+        behavior: 'smooth',
+      };
+    } else {
+      return { top: 0 };
+    }
   },
-})
+});
 
 export default router;
