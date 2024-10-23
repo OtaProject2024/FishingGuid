@@ -1,7 +1,5 @@
 <template>
-    <footer 
-        class="w-fll
-               footer-background">
+    <footer class="flex flex-col justify-end footer-background">
+        <p class="flex justify-center text-3xl mb-4">初心者向け釣りサイト - OtaProject</p>
     </footer>
 </template>
-
