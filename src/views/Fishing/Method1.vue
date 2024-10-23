@@ -67,7 +67,7 @@
             軽食: 魚がかかるまでの待ち時間に備えて、簡単に食べられる軽食を持参すると良いです。"
         />
         <Chapter 
-            title="タックス図"
+            title="タックル図"
             titleText="[img:tackle1.png]"
         />
         <Chapter 
