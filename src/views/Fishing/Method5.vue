@@ -2,6 +2,7 @@
     <div class="animate-fade-in">
         <Header />
         <Title title="ワカサギ釣り" />
+        <p class="text-right">粟竹まひろ</p>
 
         <div>
             <!-- 切り替えボタン -->

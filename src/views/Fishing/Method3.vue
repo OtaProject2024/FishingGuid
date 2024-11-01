@@ -3,14 +3,16 @@
         <ScrollToTopButton />
         <Header />
         <Title title="ニジマス釣り" />
+        <p class="text-right">木下しづき</p>
         <Chapter 
             title="特徴" 
             titleText=
-            "ニジマスは釣りの対象魚として、世界中で人気の魚です。今回は初心者にも優しい、管理釣り場で行うルアーフィッシング（エリアトラウト）について説明していきたいと思います。"
+            "[img:image4-4.jpg]
+            ニジマスは釣りの対象魚として、世界中で人気の魚です。今回は初心者にも優しい、管理釣り場で行うルアーフィッシング（エリアトラウト）について説明していきたいと思います。"
         />
         <Chapter
             title="時期"
-            titleText="管理釣り場：1年中"
+            titleText="管理釣り場：1年中（釣り場によって異なる）"
         />
         <Chapter 
             title="準備する必要があるもの"
@@ -60,9 +62,6 @@
             title="タックル図" 
             titleText="[img:tackle3.png]"
         />
-        <div>
-            <img src="" alt="">
-        </div>
         <Chapter 
             title="服装"
             titleText=
@@ -94,35 +93,50 @@
         <Chapter 
             title="釣れる魚の種類"
             titleText=
-            "（危険な魚や小さい魚リリースの注意喚起）
+            "ニジマス
+            [img:image4-8.jpg]
+            ジャガートラウト
+            [img:image4-7.jpg]
+            ブルックトラウト
+            [img:image4-6.png]
+            ヤマメ
+            [img:image4-5.jpg]
+
+            
+            （危険な魚や小さい魚リリースの注意喚起）
             食べられない分の魚は素手で触れないように注意し、リリースしましょう。（素手で直接触ってしまうと体温で魚がやけどして死んでしまいます。）"
         />
         <End 
             titleText=
             "参考資料
-            [1] okp(2022) 釣りに興味がある人に伝えたい、「管理釣り場」はいいぞ。いろんなタイプの釣りをしてきた私が今も気晴らしに楽しんでいるわけ 
-            みんなのマネ活 https://www.rakuten-card.co.jp/minna-money/fun/article_2206_90345/#h_73752
+            okp (2022) 釣りに興味がある人に伝えたい、「管理釣り場」はいいぞ。
+            いろんなタイプの釣りをしてきた私が今も気晴らしに楽しんでいるわけ　みんなのマネ活 
+            https://www.rakuten-card.co.jp/minna-money/fun/article_2206_90345/#h_73752
             (2024年9月1日アクセス)
 
-            [2] (2020) 初めての「管理釣り場のニジマス釣り」入門
-            Honda釣り倶楽部 https://www.honda.co.jp/fishing/enjoy/season/season-202004/
+            Honda釣り倶楽部 (2020) 初めての「管理釣り場のニジマス釣り」入門
+            https://www.honda.co.jp/fishing/enjoy/season/season-202004/
+            (2024年9月1日アクセス)
+            
+            Honda釣り倶楽部 (2011) ニジマスの特徴
+            https://www.honda.co.jp/fishing/picture-book/nijimasu/trap01/
             (2024年9月1日アクセス)
 
-            [3] ニジマスの特徴
-            Honda釣り倶楽部 https://www.honda.co.jp/fishing/picture-book/nijimasu/trap01/
+            SHIMANOニジマスの特徴と釣り方　釣り初めてみたい人を徹底的にサポート 
+            https://fish.shimano.com/ja-JP/content/beginners/fish/nijimasu/index.html
             (2024年9月1日アクセス)
 
-            [4] ニジマスの特徴と釣り方
-            釣り初めてみたい人を徹底的にサポート ビギナーズサポート https://fish.shimano.com/ja-JP/content/beginners/fish/nijimasu/index.html
+            Honda釣り倶楽部 (2020) 開放的な水辺でリフレッシュ！おすすめのニジマス釣り場10選
+            https://www.honda.co.jp/fishing/news/news-20200407/
             (2024年9月1日アクセス)
 
-            [5] (2020) 開放的な水辺でリフレッシュ！おすすめのニジマス釣り場10選
-            Honda釣り倶楽部 https://www.honda.co.jp/fishing/news/news-20200407/
+            つり人 TSURIBITO online (2023) ニジマス釣り初心者入門｜仕掛け・釣り方やタックル、釣り場など
+            https://web.tsuribito.co.jp/beginner/nijimasu-fishing
             (2024年9月1日アクセス)
-
-            [6] (2023) ニジマス釣り初心者入門｜仕掛け・釣り方やタックル、釣り場など
-            つり人 TSURIBITO online https://web.tsuribito.co.jp/beginner/nijimasu-fishing
-            (2024年9月1日アクセス)"
+            
+            魚速タックルDB（2022）　タックル図・仕掛け図作成
+            https://tackledb.uosoku.com/generator
+            （2024年/9月/1日アクセス）"
         />
         <Footer />
     </div>

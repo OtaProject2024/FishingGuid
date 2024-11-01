@@ -3,6 +3,7 @@
         <ScrollToTopButton />
         <Header />
         <Title title="船釣り アジ釣り" />
+        <p class="text-right">（佐藤翔）</p>
         <Chapter 
             title="経験" 
             titleText=
@@ -101,11 +102,17 @@
             titleText=
             "
             参考資料
+            Honda釣り倶楽部(2023/9)　初めての「船のライトアジ釣り」入門
             https://www.honda.co.jp/fishing/enjoy/season/season-202006/step-1/#step01
-            （初めての「船のライトアジ釣り」入門：2024/9/20アクセス）
+            (2024年/9月/20日アクセス)
 
+            ORETSURI編集部（2021/8/20）　船釣りで使う「PEライン号数」の選び方。14の釣り物でのオススメ！
             https://oretsuri.com/pe-for-funazuri
-            （船釣りで使う「PEライン号数」の選び方。14の釣り物でのオススメ！：2024/9/20アクセス）"
+            (2024年/9月/20日アクセス)
+            
+            魚速タックルDB（2022）　タックル図・仕掛け図作成
+            https://tackledb.uosoku.com/generator
+            (2024年/9月/20日アクセス)"
         />
         <Footer />
     </div>

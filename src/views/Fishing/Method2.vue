@@ -3,6 +3,7 @@
         <ScrollToTopButton />
         <Header />
         <Title title="陸上サビキ釣り" />
+        <p class="text-right">木下しづき</p>
         <Chapter 
             title="特徴" 
             titleText=
@@ -154,41 +155,45 @@
         />
         <End titleText=
         "参考資料
-        ・(2024)　初心者向けのサビキ釣りの仕掛け講座！準備する道具からセッティング方法まで解説！ point  
+        point(2024)　初心者向けのサビキ釣りの仕掛け講座！準備する道具からセッティング方法まで解説！ point  
         https://www.point-i.jp/features/1968987?author_id=39 
         （2024年9月1日 アクセス）
 
-        ・サビキ釣りのエサの量は？冷凍エサチューブ餌は1日何個使う？ 　釣りとキャンプを楽しむ情報サイト 釣りとキャンプのマガジンBlue's
+        釣りとキャンプのマガジンBlue's(2023)　サビキ釣りのエサの量は？冷凍エサチューブ餌は1日何個使う？ 　釣りとキャンプを楽しむ情報サイト 
         https://turi-camp.net/2023/09/07/amount-of-bait-for-sabiki-fishing/#toc1
         （2024年9月1日 アクセス）
 
-        ・JACKALL(2023)　TSURI レポ - 海辺の釣り 【完全版】初めての人でも分かる！簡単サビキ釣り　 be GOOD fun EGG
+        JACKALL(2023)　TSURI レポ - 海辺の釣り 【完全版】初めての人でも分かる！簡単サビキ釣り　 be GOOD fun EGG　
         https://begood-funegg.jackall.co.jp/tsuri-report/2021aw_sabiki/ 
         （2024年9月1日 アクセス）
 
-        ・ヒロ(2023) 　初心者必見！ 「サビキ釣り」に使えるダイソーアイテム5選がコスパ最強すぎた　キャンプに行こう！自然を遊ぼう！BE-PAL
+        ヒロ(2023) 　初心者必見！ 「サビキ釣り」に使えるダイソーアイテム5選がコスパ最強すぎた　キャンプに行こう！自然を遊ぼう！BE-PAL　
         https://www.bepal.net/archives/332543　
         （2024年9月1日 アクセス）
 
-        ・塩谷純一郎(2024)　【サビキ釣り】オモリの重さの選び方とおすすめ5選！号数の具体例を紹介！　TACKLE NOTE
+        塩谷純一郎(2024)　【サビキ釣り】オモリの重さの選び方とおすすめ5選！号数の具体例を紹介！　TACKLE NOTE　
         https://www.tacklenote.jp/columns/sabiki-weight/ 
         （2024年9月1日 アクセス）
 
-        ・奏楽。(2023) 　サビキ釣りで使うオモリの重さはどれくらいがおすすめ？ ウキを使う時には何号がいいの？　 気軽に楽しく 楽・楽 釣りガイド
+        奏楽。(2023) 　サビキ釣りで使うオモリの重さはどれくらいがおすすめ？ ウキを使う時には何号がいいの？　 気軽に楽しく 楽・楽 釣りガイド　
         https://rakuraku-fishing-guide.com/sabiki-weight/
         （2024年9月1日 アクセス）
 
-        ・STEP1 釣りのジャンル決め 釣れる魚から決める 釣りを始めてみたい人徹底サポート　ビキナーズサイト
+        SHIMANO(2024)　STEP1 釣りのジャンル決め 釣れる魚から決める 釣りを始めてみたい人徹底サポート　ビキナーズサイト　
         https://fish.shimano.com/ja-JP/content/beginners/season/index.html
         （2024年9月1日 アクセス）
 
-        ・(2017)　初めての「堤防のサビキ釣り」入門　Honda釣り倶楽部
+        Honda釣り倶楽部(2017)　初めての「堤防のサビキ釣り」入門　
         https://www.honda.co.jp/fishing/enjoy/season/season-201707/step-3/
         （2024年9月1日 アクセス）
 
-        ・サビキ釣りとは？釣れる魚・必要な道具・仕掛け・釣り方のコツを解説【初心者向け】釣りを始めてみたい人徹底サポート　ビキナーズサイト
+        SHIMANO(2024)　サビキ釣りとは？釣れる魚・必要な道具・仕掛け・釣り方のコツを解説【初心者向け】釣りを始めてみたい人徹底サポート　ビキナーズサイト　
         https://fish.shimano.com/ja-JP/content/beginners/fishingstyle/baitfishing/sabiki/index.htm
-        （2024年9月1日 アクセス）"
+        （2024年9月1日 アクセス）
+        
+        魚速タックルDB（2022）　タックル図・仕掛け図作成
+        https://tackledb.uosoku.com/generator
+        （2024年/9月/1日アクセス）"
         />
         <Footer />
     </div>
