@@ -2,7 +2,7 @@
 <template>
   <div>
       <div class="flex justify-center">
-          <p class="text-left text-1xl font-semibold leading-loose w-2/3 my-6 mb-16 whitespace-pre-line">
+          <p class="text-left text-1xl font-semibold leading-loose md:w-2/3 w-full mx-4 my-6 mb-16 whitespace-pre-line">
               <span v-for="(part, index) in formattedText" :key="index">
                   <template v-if="isLocalImage(part)">
                       <img 

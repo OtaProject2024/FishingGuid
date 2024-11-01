@@ -2,16 +2,16 @@
 <template>
     <div>
         <div class="flex justify-start">
-            <div class="bg-white w-8 h-16 border border-gray-300 shadow-md relative ml-44"></div>
-            <h1 class="text-3xl font-bold ml-4 my-4 whitespace-pre-line">{{ title }}</h1>
+            <div class="bg-white w-8 h-16 border border-gray-300 shadow-md relative md:ml-44 ml-4"></div>
+            <h1 class="md:text-3xl text-2xl font-bold ml-4 my-4 whitespace-pre-line">{{ title }}</h1>
         </div>
         <div class="flex justify-center">
-            <p class="text-left text-1xl font-semibold leading-loose w-2/3 my-6 mb-16 whitespace-pre-line">
+            <p class="text-left text-1xl font-semibold leading-loose md:w-2/3 w-full my-6 mb-16 whitespace-pre-line px-4 md:px-0">
                 <span v-for="(part, index) in formattedText" :key="index">
                     <template v-if="isLocalImage(part)">
                         <img 
                             :src="imagePaths[part]" 
-                            class="block my-4 w-1/2 h-auto mx-auto cursor-pointer"
+                            class="block my-4 w-full md:w-1/2 h-auto mx-auto cursor-pointer"
                             alt="Local Image"
                             @click="openModal(imagePaths[part])"/>
                     </template>

@@ -178,6 +178,16 @@
   height: 100%;
   background: url('https://placehold.co/100x50/wave-bottom.png') repeat-x;
 }
+
+@media (max-width: 768px) {
+  .header-background {
+    height: 15vh;
+  }
+  
+  .footer-background {
+    height: 10vh;
+  }
+}
 </style>
 
 

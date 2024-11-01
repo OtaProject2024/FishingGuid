@@ -215,6 +215,15 @@
   width: 100vw;
   height: 15vh;
 }
+@media (max-width: 768px) {
+  .header-background {
+    height: 15vh;
+  }
+  
+  .footer-background {
+    height: 10vh;
+  }
+}
 </style>
 
 
