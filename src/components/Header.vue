@@ -9,15 +9,14 @@
       class="flex
              items-center
              justify-end
-             space-x-20
+             md:space-x-20
+             space-x-4
              pt-2
-             pr-50
-             text-3xl
-             font-bold">
-      <router-link to="/" class="text-black">ホーム</router-link>
-      <router-link to="/#Fish" class="text-black">釣りについて</router-link>
-      <router-link to="/#How-To" class="text-black">釣り方</router-link>
-      <img src="@/assets/img/logo.png" alt="Fish" class="px-8">
+             pr-50">
+      <router-link to="/" class="text-black text-lg md:text-2xl lg:text-3xl font-bold">ホーム</router-link>
+      <router-link to="/#Fish" class="text-black text-lg md:text-2xl lg:text-3xl font-bold">釣りについて</router-link>
+      <router-link to="/#How-To" class="text-black text-lg md:text-2xl lg:text-3xl font-bold">釣り方</router-link>
+      <img src="@/assets/img/logo.png" alt="Fish" class="w-16 md:w-24">
     </nav>
   </header>
 </template>

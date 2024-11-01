@@ -9,36 +9,42 @@
              w-full 
              flex 
              flex-col 
-             items-center">
+             items-center
+             overflow-hidden">
       <div class="relative w-full flex flex-col items-center">
         <img class="mt-80 my-14 z-10" src="@/assets/img/text.png" alt="How to Starting Fishing">
-        <div style="width: 500px; height: 500px;" class="bg-[#76B4CE]
-                 rounded-full 
-                 absolute 
-                 ms-72
-                 z-0">
+        <div class="bg-[#76B4CE] 
+            rounded-full 
+            absolute 
+            w-[60vh] h-[60vh] 
+            ms-[20vw]
+            z-0">
         </div>
 
-        <img class="absolute
+        <picture>
+          <img class="absolute
                  top-0 
                  left-0 
                  h-screen
+                 md:w-auto
+                 w-1/5
                  bg-no-repeat" src="@/assets/img/Group.png">
-        </img>
+          </img>
+        </picture>
       </div>
 
-      <div class="border-t-4 border-dotted border-[#8ecae6] w-1/2 my-4" />
+      <div class="border-t-4 border-dotted border-[#8ecae6] w-1/2 my-4 2xl:my-40" />
 
       <h3 class="text-3xl font-bold my-8">まずはこちら</h3>
 
       <div>
         <div class="flex justify-center">
-        <p class="w-1/2 font-bold">
-          釣りの種類<br>
-          　・大きく2つ<br>
-          　　-餌を釣る餌釣り<br>
-          　　-擬似餌（ルアー）を使うルアー釣り
-        </p>
+          <p class="w-1/2 font-bold">
+            釣りの種類<br>
+            　・大きく2つ<br>
+            　　-餌を釣る餌釣り<br>
+            　　-擬似餌（ルアー）を使うルアー釣り
+          </p>
         </div>
         <p class="text-center font-bold mt-10 -mb-4">＜海＞</p>
         <div class="flex m-6 space-x-6 justify-center text-center font-bold">
@@ -75,34 +81,37 @@
       <div class="w-3/5 mt-16 mb-10 space-y-14 text-2xl font-bold">
         <router-link to="/tools" tag="button"
           class="w-full h-40 bg-[#8ecae6] py-4 flex justify-between items-center px-4">
-          <span class="flex">道具についてみてみる
-            <img class="ml-16" src="@/assets/img/Group2.png">
+          <span class="flex-1 flex items-center">道具についてみてみる
+            <div class="border-t-4 border-black flex-1 mx-2" />
+            <img class="" src="@/assets/img/Vector1.png">
           </span>
         </router-link>
 
         <router-link to="/Unit" tag="button"
           class="w-full h-40 bg-[#8ecae6] py-4 flex justify-between items-center px-4">
-          <span class="flex">単位についてみてみる
-            <img class="ml-16" src="@/assets/img/Group2.png">
+          <span class="flex-1 flex items-center">単位についてみてみる
+            <div class="border-t-4 border-black flex-1 mx-2" />
+            <img class="" src="@/assets/img/Vector1.png">
           </span>
         </router-link>
 
         <router-link to="/Rule" tag="button"
           class="w-full h-40 bg-[#8ecae6] py-4 flex justify-between items-center px-4">
-          <span class="flex">ルール・マナーについてみてみる
-            <img class="ml-16" src="@/assets/img/Group3.png">
+          <span class="flex-1 flex items-center">ルール・マナーについてみてみる
+            <div class="border-t-4 border-black flex-1 mx-2" />
+            <img class="" src="@/assets/img/Vector1.png">
           </span>
         </router-link>
       </div>
 
       <div class="border-t-4 border-dotted border-[#8ecae6] w-1/2 my-4"></div>
 
-      <div class="flex justify-center">
+      <div class="flex flex-col md:flex-row items-center justify-center">
         <h3 id="How-To" class="text-3xl font-bold my-24">釣り方</h3>
-        <img class="absolute right-36" src="@/assets/img/Group4.png">
+        <img class="absolute md:right-36 md:w-auto w-1/3 right-0" src="@/assets/img/Group4.png">
       </div>
 
-      <div class="flex my-10 space-x-16">
+      <div class="flex justify-center my-10 md:space-x-16 space-x-10">
         <div class="w-1/2">
           <router-link to="Method1">
             <img alt="Fishing method 1" src="@/assets/img/method1.png" />
@@ -119,13 +128,13 @@
           </router-link>
         </div>
       </div>
-      <div class="flex mb-16 space-x-16">
-        <div class="w-1/2">
+      <div class="flex justify-center mb-16 md:space-x-16 space-x-10">
+        <div class="md:w-1/2 w-1/4">
           <router-link to="/Method4">
             <img alt="Fishing method 4" src="@/assets/img/method4.png" />
           </router-link>
         </div>
-        <div class="w-1/2">
+        <div class="md:w-1/2 w-1/4">
           <router-link to="/Method5">
             <img alt="Fishing method 5" src="@/assets/img/method5.png" />
           </router-link>
