@@ -12,7 +12,7 @@
              md:space-x-20
              space-x-4
              pt-2
-             pr-50">
+             pr-5">
       <router-link to="/" class="text-black text-lg md:text-2xl lg:text-3xl font-bold">ホーム</router-link>
       <router-link to="/#Fish" class="text-black text-lg md:text-2xl lg:text-3xl font-bold">釣りについて</router-link>
       <router-link to="/#How-To" class="text-black text-lg md:text-2xl lg:text-3xl font-bold">釣り方</router-link>

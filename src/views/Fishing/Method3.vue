@@ -3,7 +3,7 @@
         <ScrollToTopButton />
         <Header />
         <Title title="ニジマス釣り" />
-        <p class="text-right">木下しづき</p>
+        <p class="text-right">（ライター：木下梓月）</p>
         <Chapter 
             title="特徴" 
             titleText=

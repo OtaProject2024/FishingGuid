@@ -2,7 +2,7 @@
     <div class="animate-fade-in">
         <Header />
         <Title title="ワカサギ釣り" />
-        <p class="text-right">粟竹まひろ</p>
+        <p class="text-right">（ライター：粟竹真優）</p>
 
         <div>
             <!-- 切り替えボタン -->

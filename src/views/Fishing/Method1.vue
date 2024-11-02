@@ -3,7 +3,7 @@
         <ScrollToTopButton />
         <Header />
         <Title title="船釣り アジ釣り" />
-        <p class="text-right">（佐藤翔）</p>
+        <p class="text-right">（ライター：佐藤翔）</p>
         <Chapter 
             title="経験" 
             titleText=
