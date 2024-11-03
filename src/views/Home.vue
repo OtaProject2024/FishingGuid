@@ -35,50 +35,19 @@
 
       <div class="border-t-4 border-dotted border-[#8ecae6] w-1/2 my-4 2xl:my-40" />
 
-      <h3 class="text-3xl font-bold my-8">まずはこちら</h3>
-
-      <div>
-        <div class="flex justify-center">
-          <p class="w-1/2 font-bold">
-            釣りの種類<br>
-            　・大きく2つ<br>
-            　　-餌を釣る餌釣り<br>
-            　　-擬似餌（ルアー）を使うルアー釣り
-          </p>
-        </div>
-        <p class="text-center font-bold mt-10 -mb-4">＜海＞</p>
-        <div class="flex m-6 space-x-6 justify-center text-center font-bold">
-          <div class="w-1/3 aspect-w-4 aspect-h-3">
-            <p>堤防</p>
-            <img src="@/assets/img/image3.jpg" alt="" class="w-full h-full object-cover">
-          </div>
-          <div class="w-1/3 aspect-w-4 aspect-h-3">
-            <p>船</p>
-            <img src="@/assets/img/image2.jpg" alt="" class="w-full h-full object-cover">
-          </div>
-          <div class="w-1/3 aspect-w-4 aspect-h-3">
-            <p>磯</p>
-            <img src="@/assets/img/image5.jpg" alt="" class="w-full h-full object-cover">
-          </div>
-        </div>
-        <p class="text-center font-bold mt-10 -mb-4">＜川、池、湖＞</p>
-        <div class="flex m-6 space-x-6 justify-center text-center font-bold">
-          <div class="w-1/3 aspect-w-4 aspect-h-3">
-            <p>渓流</p>
-            <img src="@/assets/img/image4.jpg" alt="" class="w-full h-full object-cover">
-          </div>
-          <div class="w-1/3 aspect-w-4 aspect-h-3">
-            <p>人工池</p>
-            <img src="@/assets/img/image1.jpg" alt="" class="w-full h-full object-cover">
-          </div>
-        </div>
-      </div>
-
       <div class="border-t-4 border-dotted border-[#8ecae6] w-1/2 my-4" />
 
       <h3 id="Fish" class="text-3xl font-bold my-8">釣りについて</h3>
 
       <div class="w-3/5 mt-16 mb-10 space-y-14 text-2xl font-bold">
+        <router-link to="/First" tag="button"
+          class="w-full h-40 bg-[#8ecae6] py-4 flex justify-between items-center px-4">
+          <span class="flex-1 flex items-center">まずはこちら
+            <div class="border-t-4 border-black flex-1 mx-2" />
+            <img class="" src="@/assets/img/Vector1.png">
+          </span>
+        </router-link>
+
         <router-link to="/tools" tag="button"
           class="w-full h-40 bg-[#8ecae6] py-4 flex justify-between items-center px-4">
           <span class="flex-1 flex items-center">道具についてみてみる

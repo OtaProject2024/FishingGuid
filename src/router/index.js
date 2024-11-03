@@ -3,6 +3,7 @@ import Home from '@/views/Home.vue'
 import Tools from '@/views/AboutFishing/Tools.vue'
 import Unit from '@/views/AboutFishing/Unit.vue'
 import Rule from '@/views/AboutFishing/Rule.vue'
+import First from '@/views/AboutFishing/Fitst.vue'
 
 import Method1 from '@/views/Fishing/Method1.vue'
 import Method2 from '@/views/Fishing/Method2.vue'
@@ -31,6 +32,11 @@ const routes = [
     path: '/Rule',
     name: 'Rule',
     component: Rule
+  },
+  {
+    path: '/First',
+    name: 'First',
+    component: First
   },
   {
     path: '/method1',

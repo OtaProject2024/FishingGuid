@@ -91,6 +91,7 @@
 * {
     background-color: #79CAD7;
 }
+
 .header-background {
   background: url('@/assets/img/header2.png') no-repeat center/100% 100%; /* 背景画像の設定 */
   width: 100vw; /* 画面全体の幅に設定 */
@@ -100,6 +101,15 @@
   background: url('@/assets/img/footer2.png') no-repeat center/100% 100%;
   width: 100vw;
   height: 15vh;
+}
+@media (max-width: 768px) {
+  .header-background {
+    height: 15vh;
+  }
+  
+  .footer-background {
+    height: 10vh;
+  }
 }
 </style>
 
