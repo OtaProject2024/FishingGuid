@@ -33,8 +33,6 @@
         </picture>
       </div>
 
-      <div class="border-t-4 border-dotted border-[#8ecae6] w-1/2 my-4 2xl:my-40" />
-
       <div class="border-t-4 border-dotted border-[#8ecae6] w-1/2 my-4" />
 
       <h3 id="Fish" class="text-3xl font-bold my-8">釣りについて</h3>
