@@ -3,11 +3,11 @@
         <ScrollToTopButton />
         <Header />
         <Title title="ニジマス釣り" />
-        <p class="text-right">（ライター：木下梓月）</p>
+        <p class="text-right">（ライター：시준）</p>
         <Chapter 
             title="特徴" 
             titleText=
-            "[img:image4-4.jpg]
+            "[img:image4-4.webp]
             ニジマスは釣りの対象魚として、世界中で人気の魚です。今回は初心者にも優しい、管理釣り場で行うルアーフィッシング（エリアトラウト）について説明していきたいと思います。"
         />
         <Chapter
@@ -21,17 +21,17 @@
             管理釣り場に行く際はレンタルが可能な釣り道具が多いですが、必ず行く場所で何をレンタルしているのか確認してください。
 
             ・釣り竿：初心者には、スピニングロッドと呼ばれる竿が使いやすいです。長さは1.8メートルくらいがおすすめです。エリアトラウト専用のロットを使用すると魚のあたり(魚がエサを突いたり、のみ込んだりするときに竿先に現われる動き)がわかりやすくなります
-            [img:image3-5.jpg]
+            [img:image3-5.webp]
             ・リール：釣り糸を巻き取る道具です。釣り竿と一緒にセットで使います。初心者にはスピニングリールの2000番のものが簡単で扱いやすいです。
-            [img:image3-4.jpg]
+            [img:image3-4.webp]
             ・ルアー： ルアーは魚を引き寄せるための人工的なエサのようなもので、魚の注意を引くことができます。ニジマス釣りには、スプーンやミノー、プラグと呼ばれるルアーがよく使われます。
-            [img:image3-2.jpg]
+            [img:image3-2.webp]
             ・スプーン
-            [img:image3-6.jpg]
+            [img:image3-6.webp]
             ルアー色々(シンキング、ペンシル、プラグ、ミノー)
 
             ・ビク（スカリ）：釣った魚を一時的に保管するための容器です。水に浮かべて使います。ただし、場所によっては禁止のところもあるため、調べる必要があります。
-            [img:image3-1.jpg]
+            [img:image3-1.webp]
             ・ラバーコーティングネット（網）：魚を傷つけないように設計されたネットです。釣り上げた魚をキャッチやリリースする時に使用します。釣り場によってはレンタルが可能です。
 
             ・クーラーボックス(氷・保冷剤): 釣った魚を新鮮に保つために、氷を入れたクーラーボックスがあると便利です。釣った魚を持ち帰る場合は必ず必要になります。
@@ -60,7 +60,7 @@
         />
         <Chapter 
             title="タックル図" 
-            titleText="[img:tackle3.png]"
+            titleText="[img:tackle3.webp]"
         />
         <Chapter 
             title="服装"
@@ -94,13 +94,13 @@
             title="釣れる魚の種類"
             titleText=
             "ニジマス
-            [img:image4-8.jpg]
+            [img:image4-8.webp]
             ジャガートラウト
-            [img:image4-7.jpg]
+            [img:image4-7.webp]
             ブルックトラウト
-            [img:image4-6.png]
+            [img:image4-6.webp]
             ヤマメ
-            [img:image4-5.jpg]
+            [img:image4-5.webp]
 
             
             （危険な魚や小さい魚リリースの注意喚起）
@@ -149,12 +149,12 @@
 }
 
 .header-background {
-  background: url('@/assets/img/header2.png') no-repeat center/100% 100%; /* 背景画像の設定 */
+  background: url('@/assets/img/header2.webp') no-repeat center/100% 100%; /* 背景画像の設定 */
   width: 100vw; /* 画面全体の幅に設定 */
   height: 25vh; /* 画面高さの1/4 */
 }
 .footer-background {
-  background: url('@/assets/img/footer2.png') no-repeat center/100% 100%;
+  background: url('@/assets/img/footer2.webp') no-repeat center/100% 100%;
   width: 100vw;
   height: 15vh;
 }

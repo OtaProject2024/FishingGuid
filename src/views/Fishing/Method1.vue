@@ -3,12 +3,12 @@
         <ScrollToTopButton />
         <Header />
         <Title title="船釣り アジ釣り" />
-        <p class="text-right">（ライター：佐藤翔）</p>
+        <p class="text-right">（ライター：虫）</p>
         <Chapter 
             title="経験" 
             titleText=
             "私たちは春休みに、神奈川県横浜市金沢区にある一之瀬丸さんにて船釣りを体験させて頂きました。その日は雨が降っており、風も強く吹いていましたが、なんとか船上にてアジ釣りを行うことができました。船釣り自体が初めてで、メンバーの多くが知識0からのスタートでしたが、船員の皆さんや釣り経験のあるメンバーからのサポートのおかげで楽しみながら釣りをすることができました。最初に魚が釣れたとき、とても感動したことを今でも覚えています。ぜひこの経験を皆さんにも味わっていただけるように、今回私から船でのアジ釣りの詳細について説明させていただきます。
-            [img:image1-3.jpg]"
+            [img:image1-3.webp]"
         />
         <Chapter 
             title="特徴"
@@ -70,13 +70,13 @@
         />
         <Chapter 
             title="タックル図"
-            titleText="[img:tackle1.png]"
+            titleText="[img:tackle1.webp]"
         />
         <Chapter 
             title="服装"
             titleText=
             "釣りをする際には、日焼け防止のために長袖・長ズボン、帽子を着用することをおすすめします。また、動きやすく通気性の良い素材の服が理想的です。
-            [img:image1-2.jpg]"
+            [img:image1-2.webp]"
         />
         <Chapter 
             title="餌"
@@ -84,7 +84,7 @@
         />
         <Chapter 
             title="費用" 
-            titleText="[img:image1-1.png]"
+            titleText="[img:image1-1.webp]"
         />
         <Chapter 
             title="釣り方"
@@ -95,7 +95,7 @@
             title="釣れる魚の種類とリリース"
             titleText=
             "アジ以外にも稀にクロダイを釣ることができます。また、エイやサメなどの危険な大物が釣れる場合もありますので、そういう場合は無理して船にあげずに糸を切ってあげることが大切です。
-            [img:image1-4.jpg]
+            [img:image1-4.webp]
             （実際に私が初めて釣りに行った時にも実際に、クロダイ、ネコザメ、エイが釣れました。）"
         />
         <End 
@@ -125,12 +125,12 @@
 }
 
 .header-background {
-  background: url('@/assets/img/header2.png') no-repeat center/100% 100%; /* 背景画像の設定 */
+  background: url('@/assets/img/header2.webp') no-repeat center/100% 100%; /* 背景画像の設定 */
   width: 100vw; /* 画面全体の幅に設定 */
   height: 25vh; /* 画面高さの1/4 */
 }
 .footer-background {
-  background: url('@/assets/img/footer2.png') no-repeat center/100% 100%;
+  background: url('@/assets/img/footer2.webp') no-repeat center/100% 100%;
   width: 100vw;
   height: 15vh;
 }

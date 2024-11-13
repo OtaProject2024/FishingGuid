@@ -63,7 +63,7 @@ export default {
     computed: {
         formattedText() {
             // URLおよびローカルファイルパスの正規表現を使用してテキストを分割
-            const imgPattern = /\[img:(.*?)\]/g; // プレースホルダーパターン [img:example.jpg]
+            const imgPattern = /\[img:(.*?)\]/g; // プレースホルダーパターン [img:example.webp]
             const urlPattern = /(https?:\/\/[^\s]+|\/[\w-]+(?:\/[\w-]+)+\.\w+)/g; // URLおよびローカルパスパターン
             const textWithUrls = this.titleText.split(urlPattern);
             const formattedParts = textWithUrls.flatMap(part => part.split(imgPattern));
@@ -72,14 +72,14 @@ export default {
     },
     methods: {
         isLocalImage(part) {
-            return /\.(jpg|jpeg|png|gif)$/.test(part);
+            return /\.(webp|webp|webp|gif)$/.test(part);
         },
         isValidUrl(text) {
             // URLおよびローカルファイルパスとして有効かどうかを判別
             return /https?:\/\/[^\s]+|\/[\w-]+(?:\/[\w-]+)+\.\w+/.test(text);
         },
         async loadImages() {
-            const images = import.meta.glob('@/assets/views/*.{jpg,jpeg,png,gif}');
+            const images = import.meta.glob('@/assets/views/*.{webp,webp,webp,gif}');
             for (const path in images) {
                 const fileName = path.split('/').pop();
                 const module = await images[path]();

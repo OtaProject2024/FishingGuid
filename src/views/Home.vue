@@ -12,7 +12,7 @@
              items-center
              overflow-hidden">
       <div class="relative w-full flex flex-col items-center">
-        <img class="mt-80 my-14 z-10" src="@/assets/img/text.png" alt="How to Starting Fishing">
+        <img class="mt-80 my-14 z-10" src="@/assets/img/text.webp" alt="How to Starting Fishing">
         <div class="bg-[#76B4CE] 
             rounded-full 
             absolute 
@@ -28,7 +28,7 @@
                  h-screen
                  md:w-auto
                  w-1/5
-                 bg-no-repeat" src="@/assets/img/Group.png">
+                 bg-no-repeat" src="@/assets/img/Group.webp">
           </img>
         </picture>
       </div>
@@ -42,7 +42,7 @@
           class="w-full h-40 bg-[#8ecae6] py-4 flex justify-between items-center px-4">
           <span class="flex-1 flex items-center">まずはこちら
             <div class="border-t-4 border-black flex-1 mx-2" />
-            <img class="" src="@/assets/img/Vector1.png">
+            <img class="" src="@/assets/img/Vector1.webp">
           </span>
         </router-link>
 
@@ -50,7 +50,7 @@
           class="w-full h-40 bg-[#8ecae6] py-4 flex justify-between items-center px-4">
           <span class="flex-1 flex items-center">道具についてみてみる
             <div class="border-t-4 border-black flex-1 mx-2" />
-            <img class="" src="@/assets/img/Vector1.png">
+            <img class="" src="@/assets/img/Vector1.webp">
           </span>
         </router-link>
 
@@ -58,7 +58,7 @@
           class="w-full h-40 bg-[#8ecae6] py-4 flex justify-between items-center px-4">
           <span class="flex-1 flex items-center">単位についてみてみる
             <div class="border-t-4 border-black flex-1 mx-2" />
-            <img class="" src="@/assets/img/Vector1.png">
+            <img class="" src="@/assets/img/Vector1.webp">
           </span>
         </router-link>
 
@@ -66,7 +66,7 @@
           class="w-full h-40 bg-[#8ecae6] py-4 flex justify-between items-center px-4">
           <span class="flex-1 flex items-center">ルール・マナーについてみてみる
             <div class="border-t-4 border-black flex-1 mx-2" />
-            <img class="" src="@/assets/img/Vector1.png">
+            <img class="" src="@/assets/img/Vector1.webp">
           </span>
         </router-link>
       </div>
@@ -75,35 +75,35 @@
 
       <div class="flex flex-col md:flex-row items-center justify-center">
         <h3 id="How-To" class="text-3xl font-bold my-24">釣り方</h3>
-        <img class="absolute md:right-36 md:w-auto w-1/3 right-0" src="@/assets/img/Group4.png">
+        <img class="absolute md:right-36 md:w-auto w-1/3 right-0" src="@/assets/img/Group4.webp">
       </div>
 
       <div class="flex justify-center my-10 md:space-x-16 space-x-10">
         <div class="w-1/2">
           <router-link to="Method1">
-            <img alt="Fishing method 1" src="@/assets/img/method1.png" />
+            <img alt="Fishing method 1" src="@/assets/img/method1.webp" />
           </router-link>
         </div>
         <div class="w-1/2">
           <router-link to="Method2">
-            <img alt="Fishing method 2" src="@/assets/img/method2.png" />
+            <img alt="Fishing method 2" src="@/assets/img/method2.webp" />
           </router-link>
         </div>
         <div class="w-1/2">
           <router-link to="Method3">
-            <img alt="Fishing method 3" src="@/assets/img/method3.png" />
+            <img alt="Fishing method 3" src="@/assets/img/method3.webp" />
           </router-link>
         </div>
       </div>
       <div class="flex justify-center mb-16 md:space-x-16 space-x-10">
         <div class="md:w-1/2 w-1/4">
           <router-link to="/Method4">
-            <img alt="Fishing method 4" src="@/assets/img/method4.png" />
+            <img alt="Fishing method 4" src="@/assets/img/method4.webp" />
           </router-link>
         </div>
         <div class="md:w-1/2 w-1/4">
           <router-link to="/Method5">
-            <img alt="Fishing method 5" src="@/assets/img/method5.png" />
+            <img alt="Fishing method 5" src="@/assets/img/method5.webp" />
           </router-link>
         </div>
       </div>
@@ -115,7 +115,7 @@
 
 <style scoped>
 .header-background {
-  background: url('@/assets/img/header.png') no-repeat center/100% 100%;
+  background: url('@/assets/img/header.webp') no-repeat center/100% 100%;
   /* 背景画像の設定 */
   width: 100vw;
   /* 画面全体の幅に設定 */
@@ -124,7 +124,7 @@
 }
 
 .footer-background {
-  background: url('@/assets/img/footer.png') no-repeat center/100% 100%;
+  background: url('@/assets/img/footer.webp') no-repeat center/100% 100%;
   width: 100vw;
   height: 15vh;
 }
@@ -143,7 +143,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: url('https://placehold.co/100x50/wave-bottom.png') repeat-x;
+  background: url('https://placehold.co/100x50/wave-bottom.webp') repeat-x;
 }
 
 @media (max-width: 768px) {

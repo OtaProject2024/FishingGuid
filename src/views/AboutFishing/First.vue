@@ -16,26 +16,26 @@
             <div class="flex m-6 space-x-6 justify-center text-center font-bold">
                 <div class="w-1/3 aspect-w-4 aspect-h-3">
                     <p>堤防</p>
-                    <img src="@/assets/img/image3.jpg" alt="" class="w-full h-full object-cover">
+                    <img src="@/assets/img/image3.webp" alt="" class="w-full h-full object-cover">
                 </div>
                 <div class="w-1/3 aspect-w-4 aspect-h-3">
                     <p>船</p>
-                    <img src="@/assets/img/image2.jpg" alt="" class="w-full h-full object-cover">
+                    <img src="@/assets/img/image2.webp" alt="" class="w-full h-full object-cover">
                 </div>
                 <div class="w-1/3 aspect-w-4 aspect-h-3">
                     <p>磯</p>
-                    <img src="@/assets/img/image5.jpg" alt="" class="w-full h-full object-cover">
+                    <img src="@/assets/img/image5.webp" alt="" class="w-full h-full object-cover">
                 </div>
             </div>
             <p class="text-center font-bold mt-10 -mb-4">＜川、池、湖＞</p>
             <div class="flex m-6 space-x-6 justify-center text-center font-bold mb-20">
                 <div class="w-1/3 aspect-w-4 aspect-h-3">
                     <p>渓流</p>
-                    <img src="@/assets/img/image4.jpg" alt="" class="w-full h-full object-cover">
+                    <img src="@/assets/img/image4.webp" alt="" class="w-full h-full object-cover">
                 </div>
                 <div class="w-1/3 aspect-w-4 aspect-h-3">
                     <p>人工池</p>
-                    <img src="@/assets/img/image1.jpg" alt="" class="w-full h-full object-cover">
+                    <img src="@/assets/img/image1.webp" alt="" class="w-full h-full object-cover">
                 </div>
             </div>
         </div>
@@ -49,12 +49,12 @@
 }
 
 .header-background {
-  background: url('@/assets/img/header2.png') no-repeat center/100% 100%; /* 背景画像の設定 */
+  background: url('@/assets/img/header2.webp') no-repeat center/100% 100%; /* 背景画像の設定 */
   width: 100vw; /* 画面全体の幅に設定 */
   height: 25vh; /* 画面高さの1/4 */
 }
 .footer-background {
-  background: url('@/assets/img/footer2.png') no-repeat center/100% 100%;
+  background: url('@/assets/img/footer2.webp') no-repeat center/100% 100%;
   width: 100vw;
   height: 15vh;
 }

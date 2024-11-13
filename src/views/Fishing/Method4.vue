@@ -3,7 +3,7 @@
         <ScrollToTopButton />
         <Header />
         <Title title="海上釣り掘" />
-        <p class="text-right">（ライター：佐藤翔）</p>
+        <p class="text-right">（ライター：虫）</p>
         <Chapter 
             title="特徴" 
             titleText=
@@ -53,7 +53,7 @@
         />
         <Chapter 
             title="タックル図" 
-            titleText="[img:tackle4.png]"
+            titleText="[img:tackle4.webp]"
         />
         <Chapter 
             title="服装"
@@ -62,7 +62,7 @@
             特に、夏場は日差しが強いので長袖シャツがおすすめです。
             女性は帽子、日焼け止めクリームも必需品です。
             海水なのでスポーツシューズなど洗える靴が良いです。
-            [img:image4-1.jpg]"
+            [img:image4-1.webp]"
         />
         <Chapter 
             title="費用"
@@ -84,7 +84,7 @@
             title="釣れる魚の種類とリリース"
             titleText=
             "代表的な魚といえばマダイと青もの（ブリ、カンパチ、ヒラマサ）。このほかに季節や地域によって、シマアジ、ヒラメ、イサキ、クエ、スズキ、イシガキダイなどもいる。魚は種類によって、好む居場所やエサに大まかな傾向がある。
-            [img:image4-2.png]
+            [img:image4-2.webp]
             　リリースとは、魚を傷つけずに水中に戻す行為のことです。海上釣り堀では、キープした後でのリリースは認められてません。"
         />
         <End 
@@ -121,12 +121,12 @@
 }
 
 .header-background {
-  background: url('@/assets/img/header2.png') no-repeat center/100% 100%; /* 背景画像の設定 */
+  background: url('@/assets/img/header2.webp') no-repeat center/100% 100%; /* 背景画像の設定 */
   width: 100vw; /* 画面全体の幅に設定 */
   height: 25vh; /* 画面高さの1/4 */
 }
 .footer-background {
-  background: url('@/assets/img/footer2.png') no-repeat center/100% 100%;
+  background: url('@/assets/img/footer2.webp') no-repeat center/100% 100%;
   width: 100vw;
   height: 15vh;
 }

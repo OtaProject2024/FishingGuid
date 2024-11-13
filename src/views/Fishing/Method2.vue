@@ -3,7 +3,7 @@
         <ScrollToTopButton />
         <Header />
         <Title title="陸上サビキ釣り" />
-        <p class="text-right">（ライター：山口琴音）</p>
+        <p class="text-right">（ライター：ぴんきー）</p>
         <Chapter 
             title="特徴" 
             titleText=
@@ -59,7 +59,7 @@
         />
         <Chapter 
             title="タックル図" 
-            titleText="[img:tackle2.jpg]"
+            titleText="[img:tackle2.webp]"
         />
         <Chapter 
             title="道具について"
@@ -137,9 +137,9 @@
             ②餌を入れたら、仕掛けを海に投入します。遠くに投げるのではなく、近くの水面に優しく落とすような感じです。
             ③リールのロック（ベール）を立てて、おもりが海底に着くまで下げます。海底までついたらリールのロック（ベール）を戻します。次に大きく竿を振り上げリールを 2〜3回転程度巻いてください。これを数回行います。
             ロックがかかっている時↓
-            [img:image2-1.jpg]
+            [img:image2-1.webp]
             ロックが外れている時↓
-            [img:image2-3.jpg]
+            [img:image2-3.webp]
             ④5分程度経ったら竿を小さい振り幅で上下に数回動かします。そうすることでアミカゴにいれた餌を撒くことができます。これを繰り返します。
             しばらく経っても当たらなかったら一度仕掛けを回収し、①に戻ります。
             ⑤魚が食いつくと竿の先が少し沈んだり引っ張られるような感覚があります。これを「アタリ」と言います。あたったと感じたらゆっくりリールを巻いていきます。
@@ -150,7 +150,7 @@
             titleText=
             "サビキ釣りでは主にアジやサバ、イワシなどを釣ることができます。
             実際に私がアジを釣ったときの写真です！20匹近くも釣れました。
-            [img:image2-2.jpg]
+            [img:image2-2.webp]
             また、釣った魚が小さい魚や食べれない魚（毒魚ふぐなど）だったときはリリース（海にかえす）する必要があります。"
         />
         <End titleText=
@@ -206,12 +206,12 @@
 }
 
 .header-background {
-  background: url('@/assets/img/header2.png') no-repeat center/100% 100%; /* 背景画像の設定 */
+  background: url('@/assets/img/header2.webp') no-repeat center/100% 100%; /* 背景画像の設定 */
   width: 100vw; /* 画面全体の幅に設定 */
   height: 25vh; /* 画面高さの1/4 */
 }
 .footer-background {
-  background: url('@/assets/img/footer2.png') no-repeat center/100% 100%;
+  background: url('@/assets/img/footer2.webp') no-repeat center/100% 100%;
   width: 100vw;
   height: 15vh;
 }
