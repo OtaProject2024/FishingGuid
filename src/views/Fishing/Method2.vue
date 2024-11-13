@@ -3,7 +3,7 @@
         <ScrollToTopButton />
         <Header />
         <Title title="陸上サビキ釣り" />
-        <p class="text-right">（ライター：木下梓月）</p>
+        <p class="text-right">（ライター：山口琴音）</p>
         <Chapter 
             title="特徴" 
             titleText=
