@@ -17,7 +17,7 @@
       <router-link to="/" class="text-black text-lg md:text-2xl lg:text-3xl font-bold">ホーム</router-link>
       <router-link to="/#Fish" class="text-black text-lg md:text-2xl lg:text-3xl font-bold">釣りについて</router-link>
       <router-link to="/#How-To" class="text-black text-lg md:text-2xl lg:text-3xl font-bold">釣り方</router-link>
-      <a href="https://project.ne.senshu-u.ac.jp/2024/05/#/"><img src="/logo.webp" alt="Fish" class="w-16 md:w-24"></a>
+      <a href="https://project.ne.senshu-u.ac.jp/2024/05/#/"><a href="https://project.ne.senshu-u.ac.jp/2024/05#/"><img src="/logo.webp" alt="Fish" class="w-16 md:w-24"></a></a>
     </nav>
   </header>
 </template>
