@@ -82,7 +82,7 @@
             商品名：ルアーロッド
             価格：1000円
             全長：2.1m
-             URL（2.1m）：https://jp.daisonet.com/products/4549131971170?_pos=15&_sid=23d121f50&_ss=r
+             URL：https://jp.daisonet.com/products/4549131971170?_pos=15&_sid=23d121f50&_ss=r
             （2024年9月1日現在）
 
             リール

@@ -3,7 +3,7 @@
         <ScrollToTopButton />
         <Header />
         <Title title="船釣り アジ釣り" />
-        <p class="text-right">（ライター：虫）</p>
+        <p class="text-right">（ライター：メロンパン星人）</p>
         <Chapter 
             title="経験" 
             titleText=

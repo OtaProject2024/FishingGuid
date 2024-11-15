@@ -3,6 +3,7 @@
         <ScrollToTopButton />
         <Header />
         <Title title="道具についてみてみる" />
+        <!--FIXME:画像を追加-->
         <Chapter 
             title="どんな道具があるか"
             titleText=

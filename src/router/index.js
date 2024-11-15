@@ -1,67 +1,72 @@
 import { createRouter, createWebHashHistory } from "vue-router";
-import Home from '@/views/Home.vue'
-import Tools from '@/views/AboutFishing/Tools.vue'
-import Unit from '@/views/AboutFishing/Unit.vue'
-import Rule from '@/views/AboutFishing/Rule.vue'
-import First from '@/views/AboutFishing/First.vue'
 
-import Method1 from '@/views/Fishing/Method1.vue'
-import Method2 from '@/views/Fishing/Method2.vue'
-import Method3 from '@/views/Fishing/Method3.vue'
-import Method4 from '@/views/Fishing/Method4.vue'
-import Method5 from '@/views/Fishing/Method5.vue'
-
-
+const BASE_TITLE = "Fishing Guide | "
 const routes = [
   {
     path: '/',
     name: 'Home',
-    component: Home
+    component:() => import('@/views/Home.vue'),
+    meta: {title: BASE_TITLE + 'Home'}
   },
   {
     path: '/tools',
     name: 'Tools',
-    component: Tools
+    component: () => import('@/views/AboutFishing/Tools.vue'),
+    meta: {title: BASE_TITLE + '道具について'}
   },
   {
     path: '/Unit',
     name: 'Unit',
-    component: Unit
+    component: () => import('@/views/AboutFishing/Unit.vue'),
+    meta: {title: BASE_TITLE + '単位について'}
   },
   {
     path: '/Rule',
     name: 'Rule',
-    component: Rule
+    component: () => import('@/views/AboutFishing/Rule.vue'),
+    meta: {title: BASE_TITLE + 'ルール・マナーについて'}
   },
   {
     path: '/First',
     name: 'First',
-    component: First
+    component: () => import('@/views/AboutFishing/First.vue'),
+    meta: {title: BASE_TITLE + '初心者はこちら'}
   },
   {
     path: '/method1',
     name: 'Method1',
-    component: Method1
+    component: () => import('@/views/Fishing/Method1.vue'),
+    meta: {title: BASE_TITLE + '船釣りアジ釣り'}
   },
   {
     path: '/method2',
     name: 'Method2',
-    component: Method2
+    component: () => import('@/views/Fishing/Method2.vue'),
+    meta: {title: BASE_TITLE + '陸上サビキ釣り'}
   },
   {
     path: '/method3',
     name: 'Method3',
-    component: Method3
+    component: () => import('@/views/Fishing/Method3.vue'),
+    meta: {title: BASE_TITLE + 'ニジマス釣り'}
   },
   {
     path: '/method4',
     name: 'Method4',
-    component: Method4
+    component: () => import('@/views/Fishing/Method4.vue'),
+    meta: {title: BASE_TITLE + '海上釣り堀'}
   },
   {
     path: '/Method5',
     name: 'Method5',
-    component: Method5
+    component: () => import('@/views/Fishing/Method5.vue'),
+    meta: {title: BASE_TITLE + 'ワカサギ釣り'}
+  },
+  {
+    name: '404',
+    path: '/:pathMatch(.*)*',
+    component: () => import('@/components/404.vue'),
+    meta: {title: BASE_TITLE + '404 not found'}
   }
 ]
 
@@ -80,6 +85,11 @@ const router = createRouter({
       return { top: 0 };
     }
   },
+});
+
+const DEFAULT_TITLE = "Fishing Guide";
+router.afterEach((to, from) => {
+    document.title = to.meta.title || DEFAULT_TITLE;
 });
 
 export default router;

@@ -2,8 +2,9 @@
     <div id="app" class="animate-fade-in">
         <ScrollToTopButton />
         <Header />
-        <Title title="まずはこちら" />
+        <Title title="初心者はこちら" />
         <div>
+            <!--FIXME:作り直し　エリアアウトとそれ以外で誘導ボタン追加-->
                 <Chapter 
                     title="釣りの種類" 
                     titleText=

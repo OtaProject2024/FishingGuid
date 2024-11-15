@@ -40,7 +40,7 @@
       <div class="w-3/5 mt-16 mb-10 space-y-14 text-2xl font-bold">
         <router-link to="/First" tag="button"
           class="w-full h-40 bg-[#8ecae6] py-4 flex justify-between items-center px-4">
-          <span class="flex-1 flex items-center">まずはこちら
+          <span class="flex-1 flex items-center">初心者はこちら
             <div class="border-t-4 border-black flex-1 mx-2" />
             <img class="" src="@/assets/img/Vector1.webp">
           </span>
