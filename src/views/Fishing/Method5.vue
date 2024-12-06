@@ -68,15 +68,8 @@
 
 
 <script>
-import Header from '@/components/Header.vue'
-import Footer from '@/components/Footer.vue'
-import Title from '@/components/Title.vue'
-import Chapter from '@/components/Chapter.vue'
-import End from '@/components/End.vue'
-import ScrollToTopButton from '@/components/ScrollToTopButton.vue'
-
-import Method5_1 from '@/views/Fishing/Method5_1.vue'
-import Method5_2 from '@/views/Fishing/Method5_2.vue'
+import * as components from '@/components'
+import { Method5_1, Method5_2 } from '@/views/Fishing'
 
 export default {
     data() {
@@ -91,12 +84,7 @@ export default {
         }
     },
     components: {
-        Header,
-        Footer,
-        Title,
-        Chapter,
-        End,
-        ScrollToTopButton,
+        ...components,
         Method5_1,
         Method5_2
     }

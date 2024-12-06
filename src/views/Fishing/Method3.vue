@@ -171,21 +171,10 @@
 
 
 <script>
-import Header from '@/components/Header.vue'
-import Footer from '@/components/Footer.vue'
-import Title from '@/components/Title.vue'
-import Chapter from '@/components/Chapter.vue'
-import End from  '@/components/End.vue'
-import ScrollToTopButton from'@/components/ScrollToTopButton.vue'
-
+import * as components from '@/components';
 export default {
     components: {
-        Header,
-        Footer,
-        Title,
-        Chapter,
-        End,
-        ScrollToTopButton
+        ...components,
     }
 }
 </script>

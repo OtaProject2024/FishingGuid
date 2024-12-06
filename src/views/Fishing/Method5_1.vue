@@ -24,10 +24,10 @@
 
             レンタルできるもの
             ・タックル(釣り道具)全般
-            -竿
-            -リール(手巻きが主)
-            -仕掛け
-            -重り
+            　-竿
+            　-リール(手巻きが主)
+            　-仕掛け
+            　-重り
             ・餌(主に紅サシ)
             ・ライフジャケット(安全のため、幼児や小学生にはライフジャケットの着用が求められることがある)"
         />
@@ -105,15 +105,10 @@
 </template>
 
 <script>
-import Chapter from '@/components/Chapter.vue'
-import End from  '@/components/End.vue'
-import ScrollToTopButton from'@/components/ScrollToTopButton.vue'
-
+import * as components from '@/components';
 export default {
     components: {
-        Chapter,
-        End,
-        ScrollToTopButton
+        ...components,
     }
 }
 </script>
