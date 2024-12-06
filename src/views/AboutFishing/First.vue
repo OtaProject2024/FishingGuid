@@ -127,23 +127,4 @@ export default {
         }
     }
 }
-
-document.addEventListener('DOMContentLoaded', function() {
-        const iframes = document.querySelectorAll('iframe.lazy-load');
-
-        const observer = new IntersectionObserver((entries, observer) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    const iframe = entry.target;
-                    iframe.src = iframe.getAttribute('data-src'); // data-srcからsrcに設定
-                    iframe.classList.remove('lazy-load'); // 遅延読み込みのクラスを削除
-                    observer.unobserve(iframe); // 監視を停止
-                }
-            });
-        }, { threshold: 0.1 }); // 10%が表示されたときに読み込みを開始
-
-        iframes.forEach(iframe => {
-            observer.observe(iframe); // 各iframeを監視
-        });
-    });
 </script>
