@@ -65,9 +65,10 @@
             </div>
             <!-- YouTube動画の埋め込み -->
             <div class="flex justify-center w-full">
+                <p class="font-bold">ユニノットの結び方</p>
                 <div class="relative w-full max-w-2xl mx-4 my-6" style="aspect-ratio: 16 / 9;"> <!-- アスペクト比を保持 -->
-                    <iframe class="absolute top-0 left-0 w-full h-full"
-                        src="https://www.youtube.com/embed/bZIYU4eEqbA?si=id9QbH6CmLP4s5Cf" title="YouTube video player"
+                    <iframe class="absolute top-0 left-0 w-full h-full" width="560" height="315"
+                        src="https://www.youtube.com/embed/uGqh3sFu6pM?si=ZD-mohf9wJVIGd09" title="YouTube video player"
                         frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
