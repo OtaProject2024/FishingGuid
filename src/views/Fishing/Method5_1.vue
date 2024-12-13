@@ -88,7 +88,7 @@
         />
         <End 
             titleText=
-            "参考文献
+            "参考資料
             ACTIVITY JAPAN(2024) 全国ワカサギ釣り人気ランキング&初心者におすすめな氷上・ドーム船ツアーを徹底紹介！
             https://activityjapan.com/feature/smelt_fishing_nationwide/
             （2024年9月3日アクセス）
@@ -97,7 +97,7 @@
             https://sotoasobi.net/activity/wakasagi/blog/wakasagi-fishing_skill#:~:text=%E3%80%8C%E3%83%AF%E3%82%AB%E3%82%B5%E3%82%AE%E9%87%A3%E3%82%8A%E3%80%8D%E3%81%AF%E3%80%81%E3%82%A8%E3%82%B5,%E9%87%A3%E3%82%8B%E3%82%B9%E3%82%BF%E3%82%A4%E3%83%AB%E3%81%8C%E4%BA%BA%E6%B0%97%E3%81%A7%E3%81%99%E3%80%82
             （2024年9月3日アクセス）
             
-            魚速タックルDB（2022）　タックル図・仕掛け図作成
+            魚速タックルDB(2022)　タックル図・仕掛け図作成
             https://tackledb.uosoku.com/generator
             （2024年/9月/3日アクセス）"
         />

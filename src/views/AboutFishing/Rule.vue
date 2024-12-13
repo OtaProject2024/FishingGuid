@@ -30,8 +30,8 @@
         />
         <End 
             titleText=
-            "参考文献
-            [1]釣り初心者に知ってほしいルールとマナー　SHIMANO
+            "参考資料
+            SHIMANO(2023)　釣り初心者に知ってほしいルールとマナー
             https://fish.shimano.com/ja-JP/content/beginners/fishing/manners/index.html
             （2024年10月16日アクセス）"
         />

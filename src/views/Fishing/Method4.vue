@@ -89,26 +89,26 @@
         />
         <End 
             titleText=
-            "参考文献
+            "参考資料
             Honda釣り倶楽部(2023/9)　海上釣り堀　徹底攻略 
             https://www.honda.co.jp/fishing/enjoy/season/season-201612/#stepTop
-            (2024年/9月/20日アクセス)
+            (2024年9月20日アクセス)
 
             FISHING 遊 So enjoy your FISHING world.(2011/4/1)　ENJOY FISHING 海上釣堀編
             https://fishing-you.com/wp-content/uploads/2016/07/enjoy_18kaijyoutsuribori.pdf
-            (2024年/9月/20日アクセス)
+            (2024年9月20日アクセス)
 
             ANA(2021/3/30)　初心者でも高級魚が釣れる「海上釣り堀」入門
             https://www.ana.co.jp/travelandlife/article/000830/#:~:text=%E6%B5%B7%E4%B8%8A%E9%87%A3%E3%82%8A%E5%A0%80%E3%81%A7%E3%80%81%E6%9C%80%E3%82%82%E5%A4%9A%E3%81%8F,%E3%81%8C%E6%94%BE%E3%81%95%E3%82%8C%E3%81%A6%E3%81%84%E3%81%BE%E3%81%99%E3%80%82
-            (2024年/9月/20日アクセス)
+            (2024年9月20日アクセス)
 
             ひるが海上釣堀(2023/4/3)　ひるが 海上 釣堀 魚の買取価格について
             https://blog.goo.ne.jp/hiruga-turi/e/b216dd1cc9e662f4478b55acd7d168dc
-            (2024年/9月/20日アクセス)
+            (2024年9月20日アクセス)
             
-            魚速タックルDB（2022）　タックル図・仕掛け図作成
+            魚速タックルDB(2022）　タックル図・仕掛け図作成
             https://tackledb.uosoku.com/generator
-            (2024年/9月/20日アクセス)"
+            (2024年9月20日アクセス)"
         />
         <Footer />
     </div>

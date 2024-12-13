@@ -1,5 +1,4 @@
 <template>
-  <ScrollToTopButton />
   <div class="animate-text-focus-in">
     <div class="flex flex-col items-center">
       <Header />
@@ -110,6 +109,7 @@
     </main>
   </div>
   <Footer />
+  <ScrollToTopButton />
 </template>
 
 

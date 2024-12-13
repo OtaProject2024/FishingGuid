@@ -109,16 +109,16 @@
         <End 
             titleText=
             "参考資料
-            okp (2022) 釣りに興味がある人に伝えたい、「管理釣り場」はいいぞ。
+            okp(2022) 釣りに興味がある人に伝えたい、「管理釣り場」はいいぞ。
             いろんなタイプの釣りをしてきた私が今も気晴らしに楽しんでいるわけ　みんなのマネ活 
             https://www.rakuten-card.co.jp/minna-money/fun/article_2206_90345/#h_73752
             (2024年9月1日アクセス)
 
-            Honda釣り倶楽部 (2020) 初めての「管理釣り場のニジマス釣り」入門
+            Honda釣り倶楽部(2020) 初めての「管理釣り場のニジマス釣り」入門
             https://www.honda.co.jp/fishing/enjoy/season/season-202004/
             (2024年9月1日アクセス)
             
-            Honda釣り倶楽部 (2011) ニジマスの特徴
+            Honda釣り倶楽部(2011) ニジマスの特徴
             https://www.honda.co.jp/fishing/picture-book/nijimasu/trap01/
             (2024年9月1日アクセス)
 
@@ -126,15 +126,15 @@
             https://fish.shimano.com/ja-JP/content/beginners/fish/nijimasu/index.html
             (2024年9月1日アクセス)
 
-            Honda釣り倶楽部 (2020) 開放的な水辺でリフレッシュ！おすすめのニジマス釣り場10選
+            Honda釣り倶楽部(2020) 開放的な水辺でリフレッシュ！おすすめのニジマス釣り場10選
             https://www.honda.co.jp/fishing/news/news-20200407/
             (2024年9月1日アクセス)
 
-            つり人 TSURIBITO online (2023) ニジマス釣り初心者入門｜仕掛け・釣り方やタックル、釣り場など
+            つり人 TSURIBITO online(2023) ニジマス釣り初心者入門｜仕掛け・釣り方やタックル、釣り場など
             https://web.tsuribito.co.jp/beginner/nijimasu-fishing
             (2024年9月1日アクセス)
             
-            魚速タックルDB（2022）　タックル図・仕掛け図作成
+            魚速タックルDB(2022）　タックル図・仕掛け図作成
             https://tackledb.uosoku.com/generator
             （2024年/9月/1日アクセス）"
         />

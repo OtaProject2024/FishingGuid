@@ -3,7 +3,6 @@
         <ScrollToTopButton />
         <Header />
         <Title title="道具についてみてみる" />
-        <!--FIXME:画像を追加-->
         <Chapter 
             title="どんな道具があるか"
             titleText=
@@ -58,34 +57,31 @@
         />
         <End 
             titleText=
-            "参考文献
-            [1]（2023）ロッド（釣り竿）とは？初心者向けに種類や選び方、持ち方を解説　
-            SHIMANO　
+            "参考資料
+            SHIMANO(2023)　ロッド（釣り竿）とは？初心者向けに種類や選び方、持ち方を解説
             https://fish.shimano.com/ja-JP/content/beginners/fishingtackle/rod/index.html
             （2024年9月25日アクセス）
 
-            [2]（2023）リールとは？初心者向けに種類や選び方、取り付け方を解説 
-            SHIMANO　
+            SHIMANO(2023)　リールとは？初心者向けに種類や選び方、取り付け方を解説
             https://fish.shimano.com/ja-JP/content/beginners/fishingtackle/reel/index.html#:~:text=%E3%83%AA%E3%83%BC%E3%83%AB%E3%81%A8%E3%81%AF%E3%80%81%E9%87%A3%E3%82%8A%E7%AB%BF%E3%81%AB,%E3%83%AA%E3%83%BC%E3%83%AB%E3%82%82%E5%A4%89%E3%82%8F%E3%81%A3%E3%81%A6%E3%81%8F%E3%82%8B%E3%80%82
             （2024年9月27日アクセス）
 
-            [3]（2023）釣りの仕掛けとは？仕掛けを構成する釣具について解説　SHIMANO　
+            SHIMANO(2023)　釣りの仕掛けとは？仕掛けを構成する釣具について解説
             https://fish.shimano.com/ja-JP/content/beginners/fishingtackle/shikake/index.html
             （2024年10月4日アクセス）
 
-            [4]釣りエサとは？エサの種類と釣り方ごとに適したエサについて解説　SHIMANO 
+            SHIMANO(2023)　釣りエサとは？エサの種類と釣り方ごとに適したエサについて解説
             https://fish.shimano.com/ja-JP/content/beginners/fishingtackle/esa/index.html#:~:text=%E3%82%A8%E3%82%B5%E3%81%A8%E3%81%AF%E9%AD%9A%E3%82%92,%E3%82%92%E9%81%B8%E3%81%B6%E3%81%93%E3%81%A8%E3%81%8C%E5%A4%A7%E5%88%87%E3%80%82
             （2024年10月4日アクセス）
 
-            [5]（2023）ルアーとは？初心者向けに種類や結び方、選び方、動かし方を解説　SHIMANO　　
+            SHIMANO(2023)　ルアーとは？初心者向けに種類や結び方、選び方、動かし方を解説
             https://fish.shimano.com/ja-JP/content/beginners/fishingtackle/lure/index.html
             （2024年10月4日アクセス）
 
-            [6]ルアマガプラス編集部（2020）釣りでは威力抜群、偏光グラスの知りたいこと全部教えます！ ローライトでもよく見える！ 眼鏡ユーザーの選択肢も紹介！　ルアマガプラス　
+            ルアマガプラス編集部(2020）釣りでは威力抜群、偏光グラスの知りたいこと全部教えます！ ローライトでもよく見える！ 眼鏡ユーザーの選択肢も紹介！
             https://plus.luremaga.jp/2020/06/16/26499/（2024年10月4日アクセス）
 
-            [7] （2023）ライン(釣り糸)とは？種類や選び方・結び方について解説　
-            HIMANO 
+            HIMANO(2023)　ライン(釣り糸)とは？種類や選び方・結び方について解説
             https://fish.shimano.com/ja-JP/content/beginners/fishingtackle/line/index.html
             （2024年10月16日アクセス）"
         />

@@ -7,14 +7,12 @@
         <div>
             <!-- 切り替えボタン -->
             <div class="flex justify-center text-2xl font-semibold mb-6">
-                <button 
-                    @click="showContent(1)" 
+                <button @click="showContent(1)"
                     :class="['border shadow-md mx-6', selected === 1 ? '!bg-white border-gray-300' : 'bg-blue-500 text-white hover:bg-blue-100']"
                     class="w-40 h-12">
                     ドーム船釣り
                 </button>
-                <button 
-                    @click="showContent(2)" 
+                <button @click="showContent(2)"
                     :class="['border shadow-md mx-6', selected === 2 ? '!bg-white border-gray-300' : 'bg-blue-500 text-white hover:bg-blue-100']"
                     class="w-40 h-12">
                     氷上釣り
@@ -32,6 +30,7 @@
         </div>
         <Footer />
         <ScrollToTopButton />
+        <Modal v-if="isModalVisible" :imageSrc="selectedImage" @close="closeModal" />
     </div>
 </template>
 
@@ -55,38 +54,49 @@
     width: 100vw;
     height: 15vh;
 }
+
 @media (max-width: 768px) {
-  .header-background {
-    height: 15vh;
-  }
-  
-  .footer-background {
-    height: 10vh;
-  }
+    .header-background {
+        height: 15vh;
+    }
+
+    .footer-background {
+        height: 10vh;
+    }
 }
 </style>
 
 
 <script>
 import * as components from '@/components'
-import { Method5_1, Method5_2 } from '@/views/Fishing'
+import * as Fishing from '@/views/Fishing'
 
 export default {
     data() {
         return {
             selected: "", // デフォルトで左コンテンツを表示
+            imagePaths: {}, 
+            isModalVisible: false,
+            selectedImage: '',
         };
     },
     methods: {
         showContent(index) {
             // スライドの方向を設定
             this.selected = index;
+        },
+        openModal(imageSrc) {
+            this.selectedImage = imageSrc;
+            this.isModalVisible = true;
+        },
+        closeModal() {
+            this.isModalVisible = false;
+            this.selectedImage = '';
         }
     },
     components: {
         ...components,
-        Method5_1,
-        Method5_2
+        ...Fishing
     }
 }
 </script>

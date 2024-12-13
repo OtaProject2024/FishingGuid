@@ -191,7 +191,7 @@
         https://fish.shimano.com/ja-JP/content/beginners/fishingstyle/baitfishing/sabiki/index.htm
         （2024年9月1日 アクセス）
         
-        魚速タックルDB（2022）　タックル図・仕掛け図作成
+        魚速タックルDB(2022）　タックル図・仕掛け図作成
         https://tackledb.uosoku.com/generator
         （2024年/9月/1日アクセス）"
         />
